@@ -10,7 +10,7 @@ using Supermarket.API.Resources;
 
 namespace Supermarket.API.Controllers
 {
-    [Route("/api/[controller]")]
+    [Route("api/[controller]")]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;

@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Domain.Services;
+using Supermarket.API.Domain.Persistence.Repositories;
 
-namespace Supermarket.API.Services
+namespace Supermarket.API.Domain.Services
 {
     public class ProductService : IProductService
     {

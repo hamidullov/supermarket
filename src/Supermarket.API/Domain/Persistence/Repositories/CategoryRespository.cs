@@ -2,10 +2,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Supermarket.API.Domain.Models;
-using Supermarket.API.Domain.Repositories;
-using Supermarket.API.Persistence.Contexts;
+using Supermarket.API.Domain.Persistence.Contexts;
 
-namespace Supermarket.API.Persistence.Repositories
+namespace Supermarket.API.Domain.Persistence.Repositories
 {
     public class CategoryRepository : BaseRepository, ICategoryRepository
     {

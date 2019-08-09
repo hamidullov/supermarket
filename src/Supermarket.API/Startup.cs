@@ -12,11 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Supermarket.API.Domain.Repositories;
+using Supermarket.API.Domain.Persistence.Contexts;
+using Supermarket.API.Domain.Persistence.Repositories;
 using Supermarket.API.Domain.Services;
-using Supermarket.API.Persistence.Contexts;
-using Supermarket.API.Persistence.Repositories;
-using Supermarket.API.Services;
 
 namespace Supermarket.API
 {
